@@ -1,4 +1,5 @@
 # Raspberry-Pi-Spy-Rover
+<img src="https://user-images.githubusercontent.com/25673428/30251974-671f310e-9638-11e7-95a8-465ec3651c9f.jpg" alt="https://user-images.githubusercontent.com/25673428/30251974-671f310e-9638-11e7-95a8-465ec3651c9f.jpg" class="shrinkToFit" width="569" height="320">
 
 ## Picture of Spy Rover GUI
 
