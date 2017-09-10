@@ -49,6 +49,9 @@ http://www.toptechboy.com/tutorial/low-cost-raspberry-pi-ip-camera/
 11.	Run SpyRoverGUI.py
 12.	You should now able to run your own RasPi spy rover remotely through a GUI interface.
 
+## Future Plans
+Right now I am figuring out the best way to use IR LEDs to give the spy rover night vision. I will update this file once I have completed this improvement.
+
 ## Pictures of Spy Rover GUI
 
 <img src="https://user-images.githubusercontent.com/25673428/30251704-5c4ec83e-9633-11e7-83dd-5ef2f005d711.PNG" alt="https://user-images.githubusercontent.com/25673428/30251704-5c4ec83e-9633-11e7-83dd-5ef2f005d711.PNG" class="shrinkToFit transparent" width="373" height="320">
