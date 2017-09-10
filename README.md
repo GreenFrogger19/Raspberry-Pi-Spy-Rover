@@ -47,7 +47,7 @@ http://www.toptechboy.com/tutorial/low-cost-raspberry-pi-ip-camera/
 9.	Use the following command in the Putty terminal to start Xming server display: startlxde
 10.	Download all Spy Rover programs from this repository and rrb3.py from Simon Monk’s raspirobotboard3 github repository, if you have not done so already
 11.	Run SpyRoverGUI.py
-12.	You should now able to run your own RasPi spy rover through a GUI interface.
+12.	You should now able to run your own RasPi spy rover remotely through a GUI interface.
 
 ## Pictures of Spy Rover GUI
 
