@@ -30,16 +30,26 @@ This past summer I wanted to build a remote controlled car that would be able to
   * Power cable of Raspberry Pi
   
 **Software**
-  * Putty
-  * Xming
+1. Computer:
+  	* Putty
+  	* Xming
+2. Raspberry:
+	* NOOBS
+	* Follow Procedure steps for other necessary software
   
 ## Procedure
 
 1.	Build RasPi rover using kit from https://www.monkmakes.com/pi-rover/
 2.	Download Putty, a free ssh client for Windows
 3.	Follow the kit instructions and use code from Simon Monk’s raspirobotboard3 github repository to make sure you can control the rover remotely over Putty
-4.	Set up RasPi live web camera server using tutorial below:
-http://www.toptechboy.com/tutorial/low-cost-raspberry-pi-ip-camera/
+4.	Set up RasPi live web camera server using the following tutorial: http://www.toptechboy.com/tutorial/low-cost-raspberry-pi-ip-camera/
+	* Limited explanation of tutorial:
+		* download lighttpd web server, to host web page
+		* download crtmpserver, video streaming server
+		* install or reinstall ffmpeg, software project that includes many librarys that help you handle multimedia data
+		* install StrobeMediaPlayback, media player that can be embed in website. (This will allow you to view the video streamed from the Raspberry Pi's camera in your browser.)
+		* use provided HTML code to create a web page that contains a media player
+		* run given raspivid command. (This command pipes the video stream data to the ffmpeg command, which makes a copy of the stream data, formats it to be a flash video file (.flv),  and then sends the stream data to the media player that is displayed in your browser.)
 5.	Change the –w and –h parameters on the raspivid command to adjust the size of the videostream and change the –rot parameter to adjust perspective of the stream to your liking. 
 6.	Then change the dimensions of the embed small web format (.swf) media player in the index.html, file from the tutorial, to fit the size of the stream.
 7.	Download Xming, a X11 display server for Windows that will allow you to display GUI’s to your laptop from the Raspberry Pi through the Putty ssh connection.
