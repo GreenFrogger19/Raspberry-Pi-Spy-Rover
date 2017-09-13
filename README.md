@@ -41,7 +41,7 @@ This past summer I wanted to build a remote controlled car that would be able to
 4.	Set up RasPi live web camera server using tutorial below:
 http://www.toptechboy.com/tutorial/low-cost-raspberry-pi-ip-camera/
 5.	Change the –w and –h parameters on the raspivid command to adjust the size of the videostream and change the –rot parameter to adjust perspective of the stream to your liking. 
-6.	Then change the dimensions of the embed small web format (.swf) media player in the index.html file from the tutorial to fit the size of the stream.
+6.	Then change the dimensions of the embed small web format (.swf) media player in the index.html, file from the tutorial, to fit the size of the stream.
 7.	Download Xming, a X11 display server for Windows that will allow you to display GUI’s to your laptop from the Raspberry Pi through the Putty ssh connection.
 8.	Make sure your current Putty session has X11 forwarding enabled
 9.	Use the following command in the Putty terminal to start Xming server display: startlxde
