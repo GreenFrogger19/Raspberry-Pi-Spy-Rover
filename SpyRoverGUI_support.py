@@ -5,7 +5,7 @@
 # In conjunction with Tcl version 8.6
 #
 # This module provides the functionality for the Spy Rover GUI.
-# The code for the structure of the GUI is in the SpyRoverGUI.py module.
+# The code for the structure of this GUI is in the SpyRoverGUI.py module.
 #
 # Author- Aaron Safran
 ##################################
