@@ -10,8 +10,8 @@
 # Author- Aaron Safran
 ##################################
 
-# See SpyRover.py for more info on this class
-from SpyRover import *
+
+from SpyRover import *   # See SpyRover.py for more info on this class
 import sys
 
 try:
